@@ -7,12 +7,12 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Syed Ali Hussain Naqvi | AI Engineer in Training, Pakistan</title>
-<meta name="description" content="Portfolio of Syed Ali Hussain Naqvi, BS Artificial Intelligence student at NUML Islamabad. Projects in AI agents, computer vision (YOLOv8), full-stack MERN apps, RAG and local LLMs.">
+<meta name="description" content="Syed Ali Hussain Naqvi — BS AI student at NUML Islamabad, open to AI engineering internships. Builds YOLOv8 computer vision projects.">
 <meta name="keywords" content="Syed Ali Hussain Naqvi, AI engineer, machine learning, deep learning, prompt engineering, NUML Islamabad, YOLOv8, AI agents, MERN stack, RAG, Python developer Pakistan, portfolio">
 <meta name="author" content="Syed Ali Hussain Naqvi">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Syed Ali Hussain Naqvi | AI Engineer in Training">
-<meta property="og:description" content="AI agents, computer vision and full-stack products built by a BS AI student at NUML Islamabad.">
+<meta property="og:description" content="AI engineering intern in Pakistan? Syed Ali Hussain Naqvi, BS AI student at NUML Islamabad, builds Sacodev (AI-native IDE), an X-ray fracture detector with YOLOv8, and RAG + MERN apps — open to internships.">
 <meta property="og:image" content="https://files.catbox.moe/yq8842.jpg">
 <meta property="og:url" content="https://syedalihussainnaqvi.github.io/portfolio/">
 <meta name="twitter:card" content="summary_large_image">
@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Syed Ali Hussain Naqvi","jobTitle":"AI Engineering Student","alumniOf":{"@type":"CollegeOrUniversity","name":"National University of Modern Languages (NUML), Islamabad"},"nationality":"Pakistani","url":"https://heartratetech.com","email":"mailto:syedalihussainnaqvi12@gmail.com","sameAs":["https://github.com/syedalihussainnaqvi","https://www.linkedin.com/in/syedalihussainnaqvi/"],"knowsAbout":["Artificial Intelligence","Computer Vision","AI Agents","Retrieval-Augmented Generation","MERN Stack","Python"]}
+{"@context":"https://schema.org","@type":"Person","name":"Syed Ali Hussain Naqvi","jobTitle":"AI Engineering Student","description":"Syed Ali Hussain Naqvi is a BS Artificial Intelligence student at NUML Islamabad, Pakistan, training to become an AI engineer and open to AI/ML internships (remote or in Pakistan). His projects include Sacodev, an AI-native IDE; an X-Ray Analyzer that marks possible fractures with YOLOv8; an AI Website Publishing Agent with RAG and SEO; a local-LLM multimodal chat app; a VoiceAI assistant; and a MERN Amazon clone. He works in Python, TypeScript and React.","alumniOf":{"@type":"CollegeOrUniversity","name":"National University of Modern Languages (NUML), Islamabad"},"nationality":"Pakistani","url":"https://heartratetech.com","email":"mailto:syedalihussainnaqvi12@gmail.com","sameAs":["https://github.com/syedalihussainnaqvi","https://www.linkedin.com/in/syedalihussainnaqvi/"],"knowsAbout":["Artificial Intelligence","Computer Vision","AI Agents","Retrieval-Augmented Generation","MERN Stack","Python"]}
 </script>
 <style>
 :root{color-scheme:light;--bg:#ffffff;--surface:#ffffff;--ink:#1a1a1f;--mute:#55555f;--line:#e6e6ec;--accent:#1a1a1f;--accent-ink:#fff;--soft:#ffffff;--hero:#ffffff;--alt:#ffffff;
@@ -287,7 +287,7 @@ if("IntersectionObserver" in window&&!rm){
 var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){var e=x.target;e.classList.add("in");io.unobserve(e);setTimeout(function(){e.style.transitionDelay=""},1500)}})},{threshold:.12,rootMargin:"0px 0px -6% 0px"});
 els.forEach(function(e){var i=[].indexOf.call(e.parentNode.children,e);e.classList.add("rv");e.style.transitionDelay=Math.min(i,5)*70+"ms";io.observe(e)});
 var links=[].slice.call(document.querySelectorAll("nav a")),io2=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){links.forEach(function(a){a.classList.toggle("act",a.getAttribute("href")==="#"+x.target.id)})}})},{rootMargin:"-45% 0px -50% 0px"});
-links.forEach(function(a){var s=document.querySelector(a.getAttribute("href"));if(s)io2.observe(s)});
+links.forEach(function(a){var h=a.getAttribute("href");if(h&&h.charAt(0)==="#"){var s=document.querySelector(h);if(s)io2.observe(s)}});
 }
 document.querySelectorAll(".proj").forEach(function(d){var sm=d.querySelector("summary");
 sm.addEventListener("click",function(e){if(rm||!d.animate)return;e.preventDefault();if(d._a)d._a.cancel();
